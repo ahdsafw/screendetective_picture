@@ -1,0 +1,2 @@
+# screendetective_picture
+OpenCV生成测试屏幕坏点的渐变图片，jpg和png等格式
