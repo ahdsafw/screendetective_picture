@@ -56,9 +56,8 @@ img = creat_image()
 cv.namedWindow("new_image")
 cv.imshow("new_image",img)    #全部涂完，预览效果
 
-# cv.imwrite('test.jpg',img,[int(cv.IMWRITE_JPEG_QUALITY),100])
-cv.imwrite('test4_v.png',img,[int(cv.IMWRITE_PNG_COMPRESSION),0])
-cv.imwrite('test4_v.jpg',img,[int(cv.IMWRITE_JPEG_QUALITY),100])
+cv.imwrite('pic_v.png',img,[int(cv.IMWRITE_PNG_COMPRESSION),0])  #png 0是最高质量，10是最低质量
+cv.imwrite('pic_v.jpg',img,[int(cv.IMWRITE_JPEG_QUALITY),100])  #jpg 0是最低质量，100是最高质量
 
 cv.waitKey(0)
 cv.destroyAllWindows()
