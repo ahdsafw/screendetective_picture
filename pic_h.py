@@ -29,7 +29,7 @@ def creat_image():
                 img[row , col, 1] += delta  #绿色 [0,1,0]
                 pass
             elif row < 1080:
-                img[row , col, 0] += delta  #蓝色 [0,1,0]
+                img[row , col, 0] += delta  #蓝色 [1,0,0]
 
             #判断纵列阶梯
             count += 1               #判断下一个像素
